@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Javascript Tasks</title>
+    <script >
+    	var nama1 = "Ridwan";
+		var jabatan1 = "Manager";
+		var status1 = "Menikah";
+
+		if(jabatan1 == "Manager"){
+		    harsat = 15000000; 
+		} 
+		else if(jabatan2 == "Asisten Manager"){
+		    harsat = 10000000; 
+		} 
+		else if(jabatan3 == "Staff"){
+		    harsat = 5000000; 
+		}
+		else harsat = 0; 
+
+		// Status Menikah atau Belum menikah
+
+		let tjabatan = 0.15 * harsat;
+		let bpjs = 0.1 * harsat; 
+
+		if (status1 == "Menikah")
+			duit = 0.2 * harsat;
+		
+		else duit = 0;
+
+		let total = harsat + tjabatan + bpjs + duit;
+    </script>
+</head>
+<body>
+    <table>
+ 		<h1>TABEL DATA GAJI PEGAWAI</h1>
+ 			<tr>
+ 				<td>Nama 	:</td>
+ 				<td><script>document.write("	" + nama1);</script></td>
+ 			</tr>
+ 			<tr>
+ 				<td>Jabatan :</td>
+ 				<td><script>document.write(" " + jabatan1);</script></td>
+ 			</tr>
+ 			<tr>
+ 				<td>Status 	:</td>
+ 				<td><script>document.write(" " + status1);</script></td>
+ 			</tr>
+ 	</table>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Keterangan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gaji Pokok</td>
+                <td><script>document.write("Rp " + harsat);</script></td>
+            </tr>
+            <tr>
+                <td>Tunjangan Jabatan</td>
+                <td><script>document.write("Rp " + tjabatan);</script></td>
+            </tr>
+            <tr>
+                <td>BPJS</td>
+                <td><script>document.write("Rp " + bpjs);</script></td>
+            </tr>
+            <tr>
+                <td>Tunjangan Keluarga</td>
+                <td><script>document.write("Rp " + duit);</script></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total Gaji</th>
+                <th><script>document.write("Rp " + total);</script></th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</html>
