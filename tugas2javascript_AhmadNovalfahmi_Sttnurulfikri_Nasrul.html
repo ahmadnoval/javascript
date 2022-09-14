@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas 2 Javascript</title>
+</head>
+<body>
+	<h2 align="center">Daftar pegawai</h2>
+		<table border="1" align="center" cellpadding="10" width="100%">
+			<thead bgcolor = "red">
+				<tr>
+					<th>NO</th>
+					<th>PEGAWAI</th>
+					<th>JABATAN</th>
+					<th>AGAMA</th>
+					<th>GAJI POKOK</th>
+					<th>TUNJANGAN JABATAN</th>
+					<th>TUNJANGAN KESEHATAN</th>
+					<th>GAJI KOTOR</th>
+					<th>ZAKAT</th>
+					<th>TAKE HOME PAY</th>
+				</tr>
+		</thead>
+<tbody>
+		
+		<script lang="javascript">
+            var no, warna;
+            var pegawai;
+            var jabatan;
+            var agama;
+            var tunjab;
+            var tunkes; 
+            var gator;
+            var gapok;
+            var zapro;
+            var thp;
+            for(no= 1; no <= 100; no++){
+                warna = (no % 2 == 0) ? 'aqua' :'yellow';
+                agama = (no % 2 == 1) ? 'Muslim' :'Nonmuslim';
+
+                if(no <= 25){
+                jabatan = 'Manager';
+                }
+                else if(no <= 50 && no >= 26){
+                    jabatan = 'Asisten Manager';
+                }
+                else if(no <= 75 && no >= 51){
+                    jabatan = 'Supervisor';
+                }
+                else if(no <= 100 && no >= 76){
+                    jabatan = 'Staff';
+                }
+                else {jabatan;}
+
+                switch(jabatan){
+                case 'Manager': gapok = 15000000; break;
+                case 'Asisten Manager': gapok = 10000000; break;
+                case 'Supervisor': gapok = 7000000; break;
+                case 'Staff': gapok = 4000000; break;
+                default: gapok;
+                }
+                tunjab = 0.2 * gapok;
+                tunkes = 0.1 * gapok;
+                gator = gapok + tunjab + tunkes;
+
+                
+                if(agama == 'Muslim' && gator >= '7000000'){
+                    zapro = 0.025 * gator;
+                }
+                else{
+                    zapro = 0;
+                }
+                
+                thp = gator - zapro;
+
+
+document.write(`<tr bgcolor="${warna}">
+                    <td>${no}</td>
+                    <td>Pegawai${no}</td>
+                    <td>${jabatan}</td>
+                    <td>${agama}</td>
+                    <td>Rp ${gapok}</td>
+                    <td>Rp ${tunjab}</td>
+                    <td>Rp ${tunkes}</td>
+                    <td>Rp ${gator}</td>
+                    <td>Rp ${zapro}</td>
+                    <td>Rp ${thp}</td>
+                </tr>`)
+	}
+
+</script>		
+			
+			</tbody>
+		</table>
+	</body>
+</html>
