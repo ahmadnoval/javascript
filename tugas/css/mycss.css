@@ -1,0 +1,301 @@
+#head {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("/.../image/animal.jpg");
+}
+
+#ayam-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#ayam-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#bebek-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#bebek-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#elang-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#elang-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#angsa-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#angsa-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+#dara-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#dara-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#singa-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#singa-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#cheetah-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#cheetah-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#bear-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#bear-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#komodo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#komodo-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#cow-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#cow-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#goat-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#goat-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#rabbit-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#rabbit-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#buffalo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#buffalo-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#pig-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+#pig-subtext {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 15px;
+    font-style: italic;
+}

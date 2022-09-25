@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tugas Javascript 7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/mycss.css">
+</head>
+
+<body>
+    <p class="h3" id="head">Suara Hewan dan Animasi</p>
+    <div class="container-fluid my-5">
+        <div class="accordion " id="accordionExample">
+
+            <!-- Hewan Unggas -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Hewan Unggas
+                    </button>
+                </h2>
+
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="d-flex justify-content-start">
+
+                            <!----------------- Ayam -------------------->
+
+                            <div id="ayam" class="card" style="width: 15rem;" onclick="ayam">
+                                <img id="ayam-img" src="image/ayam.jpeg" class="card-img-top"
+                                    alt="...">
+                                <div id="ayam-text">
+                                    ayam
+                                </div>
+                                <div id="ayam-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+
+                            <!----------------- Bebek -------------------->
+
+                            <div id="bebek" class="card mx-5" style="width: 15rem;" onclick="bebek">
+                                <img id="bebek-img" src="image/bebek.jpg" class="card-img-top"
+                                    alt="...">
+                                <div id="bebek-text">
+                                    Bebek
+                                </div>
+                                <div id="bebek-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+
+                            <!----------------- Elang -------------------->
+
+                            <div id="elang" class="card" style="width: 15rem;" onclick="elang">
+                                <img id="elang-img" src="image/eagle.jpg" class="card-img-top"
+                                    alt="...">
+                                <div id="elang-text">
+                                    Elang
+                                </div>
+                                <div id="elang-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+
+                            <!----------------- Angsa -------------------->
+
+                            <div id="angsa" class="card mx-5" style="width: 15rem;" onclick="angsa">
+                                <img id="angsa-img" src="image/swan1.png" class="card-img-top"
+                                    alt="...">
+                                <div id="angsa-text">
+                                    Angsa
+                                </div>
+                                <div id="angsa-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+
+                            <!----------------- Burung Dara -------------------->
+
+                            <div id="dara" class="card mx-5" style="width: 15rem;" onclick="dara">
+                                <img id="dara-img" src="image/pigeon1.jpg" class="card-img-top"
+                                    alt="...">
+                                <div id="dara-text">
+                                    Burung Dara
+                                </div>
+                                <div id="dara-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hewan Ternak -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Hewan Ternak
+                    </button>
+                </h2>
+
+                <!-- Hewan ternak --> 
+
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="d-flex justify-content-start">
+
+
+                            <div id="buffalo" class="card" style="width: 15rem;" onclick="buffalo">
+                                <img id="buffalo-img" src="image/buffalo.jpg" class="card-img-top" alt="...">
+                                <div id="buffalo-text">
+                                    Banteng
+                                </div>
+                                <div id="buffalo-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+
+                            <div id="cow" class="card mx-5" style="width: 15rem;" onclick="cow">
+                                <img id="cow-img" src="image/cow.jpg" class="card-img-top" alt="...">
+                                <div id="cow-text">
+                                    Sapi
+                                </div>
+                                <div id="cow-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+                            <div id="goat" class="card" style="width: 15rem;"  onclick="goat">
+                                <img id="goat-img" src="image/goat.jpg" class="card-img-top" alt="...">
+                                <div id="goat-text">
+                                    Kambing
+                                </div>
+                                <div id="goat-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+                            <div id="rabbit" class="card mx-5" style="width: 15rem;" onclick="rabbit">
+                                <img id="rabbit-img" src="image/rabbit.jpg" class="card-img-top" alt="...">
+                                <div id="rabbit-text">
+                                    Kelinci
+                                </div>
+                                <div id="rabbit-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+                            <div id="pig" class="card" style="width: 15rem;" onclick="pig">
+                                <img id="pig-img" src="image/pig.jpg" class="card-img-top" alt="...">
+                                <div id="pig-text">
+                                    Babi
+                                </div>
+                                <div id="pig-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hewan Buas -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Hewan Buas
+                    </button>
+                </h2>
+
+
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="d-flex justify-content-start">
+
+                            <!----------------- Cheetah -------------------->
+
+                            <div id="cheetah" class="card" style="width: 15rem;" onclick="cheetah">
+                                <img id="cheetah-img" src="image/cheetah.jpg" class="card-img-top" alt="...">
+                                <div id="cheetah-text">
+                                    Cheetah
+                                </div>
+                                <div id="cheetah-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+
+                            <!----------------- Komodo -------------------->
+
+                            <div id="komodo" class="card mx-5" style="width: 15rem;" onclick="komodo">
+                                <img id="komodo-img" src="image/komodo.jpg" class="card-img-top" alt="...">
+                                <div id="komodo-text">
+                                    Komodo
+                                </div>
+                                <div id="komodo-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+
+                            <!----------------- Harimau -------------------->
+
+                            <div id="fox" class="card" style="width: 15rem;" onclick="fox">
+                                <img id="fox-img" src="image/fox.jpg" class="card-img-top" alt="...">
+                                <div id="fox-text">
+                                    Fox
+                                </div>
+                                <div id="fox-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+
+                            <!----------------- Beruang -------------------->
+
+                            <div id="bear" class="card mx-5" style="width: 15rem;" onclick="beruang">
+                                <img id="bear-img" src="image/bear.jpg" class="card-img-top" alt="...">
+                                <div id="bear-text">
+                                    Bear
+                                </div>
+                                <div id="bear-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+
+                            <!----------------- Singa -------------------->
+
+                            <div id="singa" class="card" style="width: 15rem;" onclick="singa">
+                                <img id="singa-img" src="image/lion2.jpeg" class="card-img-top" alt="...">
+                                <div id="singa-text">
+                                    Singa
+                                </div>
+                                <div id="singa-subtext">
+                                    (Click Me)
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/myjs-jquery.js"></script>
+</body>
+
+</html>
